@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		893579E82080B06800217392 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 893579E72080B06800217392 /* main.c */; };
 		893579F02080B21F00217392 /* LCS.c in Sources */ = {isa = PBXBuildFile; fileRef = 893579EE2080B21F00217392 /* LCS.c */; };
+		89EB71F2208B37AD0091CE48 /* leetcode_122.c in Sources */ = {isa = PBXBuildFile; fileRef = 89EB71F0208B37AD0091CE48 /* leetcode_122.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		893579E72080B06800217392 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		893579EE2080B21F00217392 /* LCS.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCS.c; sourceTree = "<group>"; };
 		893579EF2080B21F00217392 /* LCS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCS.h; sourceTree = "<group>"; };
+		89EB71F0208B37AD0091CE48 /* leetcode_122.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = leetcode_122.c; sourceTree = "<group>"; };
+		89EB71F1208B37AD0091CE48 /* leetcode_122.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_122.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				893579E72080B06800217392 /* main.c */,
+				89EB71F3208B37B80091CE48 /* leetcode */,
 				893579F12080B22B00217392 /* 最长公共子串（子序列） */,
 			);
 			path = "Algorithm practice";
@@ -73,6 +77,15 @@
 				893579EE2080B21F00217392 /* LCS.c */,
 			);
 			path = "最长公共子串（子序列）";
+			sourceTree = "<group>";
+		};
+		89EB71F3208B37B80091CE48 /* leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				89EB71F1208B37AD0091CE48 /* leetcode_122.h */,
+				89EB71F0208B37AD0091CE48 /* leetcode_122.c */,
+			);
+			path = leetcode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +147,7 @@
 			files = (
 				893579F02080B21F00217392 /* LCS.c in Sources */,
 				893579E82080B06800217392 /* main.c in Sources */,
+				89EB71F2208B37AD0091CE48 /* leetcode_122.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

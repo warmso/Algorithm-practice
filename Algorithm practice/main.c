@@ -8,17 +8,17 @@
 
 #include <stdio.h>
 #include "LCS.h"
+#include "gupiao.h"
 
 
 int main(int argc, const char * argv[]) {
+
+    int data[100];
+    char temp=65;
     
-    char data_1[50];
-    char data_2[50];
     
-    scanf("%s",data_1);
-    scanf("%s",data_2);
     
-    LCS(data_1,data_2,1);
-    
+
     return 0;
 }
+
