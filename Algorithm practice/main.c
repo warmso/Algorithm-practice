@@ -7,18 +7,12 @@
 //
 
 #include <stdio.h>
-#include "LCS.h"
-#include "gupiao.h"
+//#include "LCS.h"
+#include "leetcode_350.h"
 
 
 int main(int argc, const char * argv[]) {
 
-    int data[100];
-    char temp=65;
     
-    
-    
-
-    return 0;
 }
 
