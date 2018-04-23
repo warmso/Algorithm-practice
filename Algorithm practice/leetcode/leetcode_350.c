@@ -56,12 +56,12 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
         }
         if(nums1[i]>nums2[j])
         {
-            j=(j+1<=nums2Size?j+1:(i++,j));
+            j=(j+1<=nums2Size?j+1:((void)(i++),j));
             continue;
         }
         if(nums1[i]<nums2[j])
         {
-            i=(i+1<=nums1Size?i+1:(j++,i));
+            i=(i+1<=nums1Size?i+1:((void)(j++),i));
             continue;
         }
     }
