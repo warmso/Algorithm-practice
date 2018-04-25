@@ -9,7 +9,7 @@
 #include "leetcode_38.h"
 #include "stdlib.h"
 
-int judge(int data[],int location)
+int judge_38(int data[],int location)
 {
     int i=location;
     while(data[i+1]==data[i])
@@ -45,8 +45,7 @@ char* countAndSay(int n) {
             count_2=0;
             for(j=0;j<count_1;j++)
             {
-                
-                temp=judge(data_1,j);
+                temp=judge_38(data_1,j);
                 data_2[count_2]=temp;
                 count_2++;
                 data_2[count_2]=data_1[j];
@@ -59,7 +58,7 @@ char* countAndSay(int n) {
             count_1=0;
             for(j=0;j<count_2;j++)
             {
-                temp=judge(data_2,j);
+                temp=judge_38(data_2,j);
                 data_1[count_1]=temp;
                 count_1++;
                 data_1[count_1]=data_2[j];

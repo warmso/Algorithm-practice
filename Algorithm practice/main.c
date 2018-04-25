@@ -8,13 +8,10 @@
 
 #include <stdio.h>
 //#include "LCS.h"
-#include "leetcode_104.h"
+#include "leetcode_98.h"
 #include<stdlib.h>
 
-
-
 int main(int argc, const char * argv[]) {
-
     
     
     return 0;
