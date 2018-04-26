@@ -8,12 +8,14 @@
 
 #include <stdio.h>
 //#include "LCS.h"
-#include "leetcode_98.h"
+#include "leetcode_278.h"
 #include<stdlib.h>
 
 int main(int argc, const char * argv[]) {
     
-    
+    int i;
+    scanf("%d",&i);
+    firstBadVersion(i);
     return 0;
 }
 
