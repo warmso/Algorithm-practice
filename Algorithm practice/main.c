@@ -8,14 +8,17 @@
 
 #include <stdio.h>
 //#include "LCS.h"
-#include "leetcode_278.h"
+#include "leetcode_198.h"
 #include<stdlib.h>
 
 int main(int argc, const char * argv[]) {
     
-    int i;
+    int i,j,a[50];
     scanf("%d",&i);
-    firstBadVersion(i);
+    for (j=0; j<i; j++) {
+        scanf("%d",a+j);
+    }
+    printf("--- %d ",rob(a,i));
     return 0;
 }
 

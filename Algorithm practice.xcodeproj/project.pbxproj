@@ -17,6 +17,8 @@
 		89DC61B4208F78120060CE9D /* leetcode_98.c in Sources */ = {isa = PBXBuildFile; fileRef = 89DC61B2208F78110060CE9D /* leetcode_98.c */; };
 		89DC61B72091DF6F0060CE9D /* leetcode_88.c in Sources */ = {isa = PBXBuildFile; fileRef = 89DC61B52091DF6F0060CE9D /* leetcode_88.c */; };
 		89DC61BA2091E8D50060CE9D /* leetcode_278.c in Sources */ = {isa = PBXBuildFile; fileRef = 89DC61B82091E8D50060CE9D /* leetcode_278.c */; };
+		89DC61BD2092159D0060CE9D /* leetcode_53.c in Sources */ = {isa = PBXBuildFile; fileRef = 89DC61BB2092159D0060CE9D /* leetcode_53.c */; };
+		89DC61C02092E9CD0060CE9D /* leetcode_198.c in Sources */ = {isa = PBXBuildFile; fileRef = 89DC61BE2092E9CD0060CE9D /* leetcode_198.c */; };
 		89EB71F2208B37AD0091CE48 /* leetcode_122.c in Sources */ = {isa = PBXBuildFile; fileRef = 89EB71F0208B37AD0091CE48 /* leetcode_122.c */; };
 		89EB71F6208B78300091CE48 /* leetcode_15.c in Sources */ = {isa = PBXBuildFile; fileRef = 89EB71F4208B78300091CE48 /* leetcode_15.c */; };
 		89EB71F9208CAC930091CE48 /* leetcode_350.c in Sources */ = {isa = PBXBuildFile; fileRef = 89EB71F7208CAC930091CE48 /* leetcode_350.c */; };
@@ -55,6 +57,10 @@
 		89DC61B62091DF6F0060CE9D /* leetcode_88.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_88.h; sourceTree = "<group>"; };
 		89DC61B82091E8D50060CE9D /* leetcode_278.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = leetcode_278.c; sourceTree = "<group>"; };
 		89DC61B92091E8D50060CE9D /* leetcode_278.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_278.h; sourceTree = "<group>"; };
+		89DC61BB2092159D0060CE9D /* leetcode_53.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = leetcode_53.c; sourceTree = "<group>"; };
+		89DC61BC2092159D0060CE9D /* leetcode_53.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_53.h; sourceTree = "<group>"; };
+		89DC61BE2092E9CD0060CE9D /* leetcode_198.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = leetcode_198.c; sourceTree = "<group>"; };
+		89DC61BF2092E9CD0060CE9D /* leetcode_198.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_198.h; sourceTree = "<group>"; };
 		89EB71F0208B37AD0091CE48 /* leetcode_122.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = leetcode_122.c; sourceTree = "<group>"; };
 		89EB71F1208B37AD0091CE48 /* leetcode_122.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_122.h; sourceTree = "<group>"; };
 		89EB71F4208B78300091CE48 /* leetcode_15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = leetcode_15.c; sourceTree = "<group>"; };
@@ -117,6 +123,10 @@
 				89DC61B62091DF6F0060CE9D /* leetcode_88.h */,
 				89DC61B92091E8D50060CE9D /* leetcode_278.h */,
 				89DC61B82091E8D50060CE9D /* leetcode_278.c */,
+				89DC61BC2092159D0060CE9D /* leetcode_53.h */,
+				89DC61BB2092159D0060CE9D /* leetcode_53.c */,
+				89DC61BF2092E9CD0060CE9D /* leetcode_198.h */,
+				89DC61BE2092E9CD0060CE9D /* leetcode_198.c */,
 				89DC61B52091DF6F0060CE9D /* leetcode_88.c */,
 				89EB71F1208B37AD0091CE48 /* leetcode_122.h */,
 				89EB71F0208B37AD0091CE48 /* leetcode_122.c */,
@@ -201,8 +211,10 @@
 				893579F02080B21F00217392 /* LCS.c in Sources */,
 				89DC61AE208E1AEE0060CE9D /* leetcode_234.c in Sources */,
 				893579E82080B06800217392 /* main.c in Sources */,
+				89DC61C02092E9CD0060CE9D /* leetcode_198.c in Sources */,
 				89DC61A8208DAEC70060CE9D /* leetcode_38.c in Sources */,
 				89DC61B4208F78120060CE9D /* leetcode_98.c in Sources */,
+				89DC61BD2092159D0060CE9D /* leetcode_53.c in Sources */,
 				89DC61B1208E23200060CE9D /* leetcode_104.c in Sources */,
 				89DC61AB208DD92E0060CE9D /* leetcode_21.c in Sources */,
 				89EB71F2208B37AD0091CE48 /* leetcode_122.c in Sources */,
