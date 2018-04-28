@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 //#include "LCS.h"
-#include "leetcode_198.h"
+#include "leetcode_384.h"
 #include<stdlib.h>
 
 int main(int argc, const char * argv[]) {
@@ -18,7 +18,19 @@ int main(int argc, const char * argv[]) {
     for (j=0; j<i; j++) {
         scanf("%d",a+j);
     }
-    printf("--- %d ",rob(a,i));
+    Solution *obj= solutionCreate(a,i);
+    solutionShuffle(obj,&i);
+    for (j=0; j<i; j++) {
+        printf("%d ",obj->data[j]);
+    }
+    solutionShuffle(obj,&i);
+    for (j=0; j<i; j++) {
+        printf("%d ",obj->data[j]);
+    }
+    solutionShuffle(obj,&i);
+    for (j=0; j<i; j++) {
+        printf("%d ",obj->data[j]);
+    }
     return 0;
 }
 
