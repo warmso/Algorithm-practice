@@ -8,29 +8,16 @@
 
 #include <stdio.h>
 //#include "LCS.h"
-#include "leetcode_384.h"
+#include "leetcode_190.h"
 #include<stdlib.h>
 
 int main(int argc, const char * argv[]) {
     
-    int i,j,a[50];
+    int i;
     scanf("%d",&i);
-    for (j=0; j<i; j++) {
-        scanf("%d",a+j);
-    }
-    Solution *obj= solutionCreate(a,i);
-    solutionShuffle(obj,&i);
-    for (j=0; j<i; j++) {
-        printf("%d ",obj->data[j]);
-    }
-    solutionShuffle(obj,&i);
-    for (j=0; j<i; j++) {
-        printf("%d ",obj->data[j]);
-    }
-    solutionShuffle(obj,&i);
-    for (j=0; j<i; j++) {
-        printf("%d ",obj->data[j]);
-    }
+    
+    printf("%u",reverseBits(i));
+    
     return 0;
 }
 
